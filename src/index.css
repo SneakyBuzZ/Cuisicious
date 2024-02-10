@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logoImage {
+    filter: drop-shadow(30px 10px 6rem #ffffff);
+}
+
+body {
+    background-color: rgb(11, 7, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul li {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.footer {
+    background-color: rgba(255, 159, 70, 0.141);
+}
+
+.home {
+    height: 39rem;
+    width: 76%;
+    margin: 0px auto;
+}
+
+.leftcontainer {
+    width: 60%;
+}
+
+.rightcontainer {
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.rightcontainer img {
+    /* border: 1px solid white; */
+    filter: drop-shadow(7rem 0rem 16rem #ffc69138);
+}
+
+.leftcontainer .tittle h1 {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.rightcontainer img {
+    height: 33rem;
+}
+
+/* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .picbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* PICBOX BOX1  */
+.services .picbox .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 40%;
+    height: 48rem;
+}
+
+/* PICBOX BOX1 IMG  */
+.picbox .box1 img {
+    width: 31rem;
+    flex-shrink: 10;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: drop-shadow(1rem 3rem 9rem #ffc69138);
+}
+
+.services .box1 .box3 {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box1 .box3 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.box1 .box3 a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    padding: 13px 0px;
+}
+
+.box1 .box3 .hr1 {
+    width: 15rem;
+    display: block;
+    height: 0px;
+    margin: 10px auto;
+    border: 2px solid #1f1f1f;
+}
+
+.box1 #a1 {
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    padding: 6px 0px 0px 0px;
+}
+
+/* PICBOX BOX2  */
+.services .picbox .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 40%;
+    height: 48rem;
+}
+
+/* PICBOX BOX2 IMG  */
+.picbox .box2 img {
+    width: 31rem;
+    flex-shrink: 10;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: drop-shadow(3rem -3rem 6rem #ffc69138);
+}
+
+.services .box2 .box4 {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box2 .box4 h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.box2 .box4 a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    padding: 15px 0px 0px 0px;
+}
+
+.box2 .box4 .hr2 {
+    width: 15rem;
+    display: block;
+    height: 0px;
+    margin: 6px auto;
+    border: 2px solid #1f1f1f;
+    margin-top: 22px;
+}
+
+.box2 #a2 {
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    padding: 6px 0px 0px 0px;
+}
+
+
+/* LOGINCONTAINER LOGINCONTAINER LOGINCONTAINER  */
+.logincontainer {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 30rem;
+    width: 30rem;
+}
+
+.loginform h3 {
+    flex-basis: 20%;
+    font-size: 3.5rem;
+    font-weight: 1000;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.loginform form {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    flex-basis: 80%;
+    height: 7rem;
+}
+
+.loginform .formitem {
+    margin: 11px 0px;
+    padding: 17px 100px;
+    /* background-color: #faebde; */
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #8080809c;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.loginform .formsubmit {
+    margin: 11px 0px;
+    padding: 17px 100px;
+    /* background-image: linear-gradient(to right, rgb(255, 128, 0), rgb(255, 196, 4)); */
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    /* color: white; */
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.logincontainer button {
+    filter: drop-shadow(0rem -3rem 14rem #ffc052b8);
+}
+
+.btn1 {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.btn2 {
+    font-family: 'Protest Strike', sans-serif;
+}
+
+.imageApi {
+    /* aspect-ratio: 1:1; */
+}
