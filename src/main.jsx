@@ -13,7 +13,7 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<App />} path="/">
-      <Route element={<Home />} path="home" />
+      <Route element={<Home />} path="/home" />
       <Route element={<Menu />} path="menu" />
       <Route element={<Form />} path="form" />
       <Route element={<Image />} path="image" loader={imageFromApi} />
